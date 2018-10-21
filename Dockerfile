@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # Install Sismics repository
 RUN apt-get update && apt-get install -y apt-transport-https ca-certificates software-properties-common curl gnupg tzdata
 RUN curl -fsSL https://www.sismics.com/pgp | apt-key add -
-RUN add-apt-repository "deb [arch=amd64] https://nexus.sismics.com/repository/apt-bionic/ bionic main"
+# RUN add-apt-repository "deb [arch=amd64] https://nexus.sismics.com/repository/apt-bionic/ bionic main"
 
 # Configure settings
 ENV LANG C.UTF-8
