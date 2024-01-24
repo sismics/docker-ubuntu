@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 MAINTAINER Benjamin Gamard <b.gamard@sismics.com>
 
 # Run Debian in non interactive mode
